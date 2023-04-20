@@ -1,28 +1,28 @@
 
 make kali linux or ubuntu look like mac os
 
-Dependency Installs
+
 ______________________________________________________________________________________________________________________________________________________________________________________________________
-
-sudo apt install git gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool -y
-
-git clone https://github.com/ChrisTitusTech/Linux-MacOS-GNOME.git ~/MacOS
-mkdir ~/.themes
-mkdir ~/.icons
-mv ~/MacOS/themes/* ~/.themes
-mv ~/MacOS/icons/* ~/.icons
-sudo mv ~/MacOS/walls/* /usr/share/backgrounds/
+Dependency Installs
+ 
+                   sudo apt install git gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool -y
+                   git clone https://github.com/ChrisTitusTech/Linux-MacOS-GNOME.git ~/MacOS
+                   mkdir ~/.themes
+                   mkdir ~/.icons
+                   mv ~/MacOS/themes/* ~/.themes
+                   mv ~/MacOS/icons/* ~/.icons
+                   sudo mv ~/MacOS/walls/* /usr/share/backgrounds/
 ________________________________________________________________________________________________________________________________________________________________________________________________________
 Gnome Tweaks
 
-gsettings set org.gnome.mutter center-new-windows 'true'
-gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
-gsettings set org.gnome.desktop.interface gtk-theme "WhiteSur-dark"
-gsettings set org.gnome.desktop.wm.preferences theme "WhiteSur-dark"
-gsettings set org.gnome.desktop.interface icon-theme 'BigSur'
-gsettings set org.gnome.desktop.interface cursor-theme 'capitaine-cursors-light'
-gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/macOS-BS3.jpg'
-gsettings get org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/macOS-BS1.jpg'
+                      gsettings set org.gnome.mutter center-new-windows 'true'
+                      gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
+                      gsettings set org.gnome.desktop.interface gtk-theme "WhiteSur-dark"
+                      gsettings set org.gnome.desktop.wm.preferences theme "WhiteSur-dark"
+                      gsettings set org.gnome.desktop.interface icon-theme 'BigSur'
+                      gsettings set org.gnome.desktop.interface cursor-theme 'capitaine-cursors-light'
+                      gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/macOS-BS3.jpg'
+                      gsettings get org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/macOS-BS1.jpg'
 ___________________________________________________________________________________________________________________________________________________________________________________________________________
 Albert Search and Cairo Dock
 
