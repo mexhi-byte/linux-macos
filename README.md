@@ -1,4 +1,8 @@
+
+make kali linux or ubuntu look like mac os
+
 Dependency Installs
+______________________________________________________________________________________________________________________________________________________________________________________________________
 
 sudo apt install git gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool -y
 
