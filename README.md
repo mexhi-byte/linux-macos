@@ -26,16 +26,16 @@ Gnome Tweaks
 ___________________________________________________________________________________________________________________________________________________________________________________________________________
 Albert Search and Cairo Dock
 
-curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
-echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
-sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_20.04/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc"
-sudo apt update
-sudo apt install albert cairo-dock cairo-dock-plug-ins -y
+                      curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
+                      echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
+                      sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_20.04/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc"
+                      sudo apt update
+                      sudo apt install albert cairo-dock cairo-dock-plug-ins -y
 
-    Launch Albert
-    Set Hotkey - Meta + F
-    Set Theme Arc Dark Blue
-    Enable Albert Extensions
+                                   Launch Albert
+                                   Set Hotkey - Meta + F
+                                   Set Theme Arc Dark Blue
+                                   Enable Albert Extensions
 ______________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Gnome Extensions
